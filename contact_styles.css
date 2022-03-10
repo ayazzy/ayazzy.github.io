@@ -7,9 +7,6 @@ body html {
     padding: 10px;
     margin: 10px;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    
-    
-   
 }
 
 #logo {
@@ -34,6 +31,7 @@ body html {
     position: relative;
     left: 5%;
     font-size: 18px;
+    padding-bottom: 5px;
 }
 #name-field {
     width: 310px;
@@ -41,12 +39,7 @@ body html {
     border-radius: 25px;
     border: 4px solid orange;
     font-size: 20px;
-    
-    
-   
-    
-    
-    
+    padding-left: 20px;
 }
 #email-text {
     position: relative;
@@ -59,54 +52,43 @@ body html {
     height: 50px;
     border-radius: 25px;
     border: 4px solid orange;
-    padding-left: 10px;
+    padding-left: 20px;
     font-size: 20px;
-    margin-left: 30px;
-   
-
-    
-    
+    margin-left: 40px; 
 }
+
 
 #message-text {
     position: relative;
     left: 21%;
-    margin-top: 5%;
+    margin-top: 5px;
     font-size: 18px;
-
 }
 
+
 #message-field {
+    height: 300px;
     width: 700px;
-    height: 400px;
     border-radius: 25px;
     border: 4px solid orange;
     position: relative;
     left: 18%;
-    
-
-    
-    
-    
-    
+    padding-left: 20px;
+    font-size: 18px;
 }
+
+
+
+
 .form-inline {
-    display: inline-block;
- 
-
-    
-    
- 
-   
+    display: inline-block;   
 }
+
 
 .form-group {
     display: inline-block;
-    
     position: relative;
-    left: 20%;
-    
-    
+    left: 20%;   
 }
 
     
@@ -118,19 +100,15 @@ body html {
     
     
 footer {
-    position: absolute;
+    text-align: center;
     bottom: 20px;
     width: 100%;
-    height: 90px;
-    position: fixed;
-    
+    height: 90px; 
 }
 
 
 li {
-    display: inline-block;
-    
-    
+    display: inline-block;   
 }
     
     
@@ -150,15 +128,17 @@ li {
     
   }
 
-.fa-linkedin {
-    margin-left: 40px;
-  
 
+.fa-linkedin {
+    margin-left: 140px;
 }
+
+
+
 
 #button {
     margin-top: 60px;
-    margin-left: 58%;
+    margin-left: 55%;
     margin-bottom: 120px;
     border: 4px solid;
     background-color: transparent;
@@ -170,6 +150,7 @@ li {
     padding-top: 20px;
     padding-bottom: 20px;
     font-size: 20px;
+    text-align: center;
     
   
     
